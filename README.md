@@ -1,8 +1,9 @@
 # question_parser
-Experimenting with question parsing implementations
+##### CISC 4900 group project
+Throw away repository for experimenting with question parsing implementations.
 Feel free to add any alternate solutions
 
-Test Q&A data for CIS department undergrad program:
+##### Test Q&A data for CIS department undergrad program:
 ```yaml
 ---
 - q: Where is the CIS department?
@@ -45,7 +46,7 @@ on windows, run the following to set up build tools first if you run into any co
 ```
 also make sure you're using latest python or else you might get error related to the typing package
 
-How can I contribute?
+### How can I contribute?
 ```ruby
 "R29ldHo0OTAwOzQ5MDBDaGF0Qm90\n"
 ```
