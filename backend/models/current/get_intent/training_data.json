@@ -1,0 +1,126 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "greeting"
+      },
+      {
+        "intent": "greet",
+        "text": "sup"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "thank you"
+      },
+      {
+        "intent": "bye",
+        "text": "thanks"
+      },
+      {
+        "intent": "bye",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "bye",
+        "text": "ok then"
+      },
+      {
+        "intent": "course_list",
+        "text": "hi what course can i take"
+      },
+      {
+        "intent": "course_list",
+        "text": "can i get a list of courses"
+      },
+      {
+        "intent": "course_list",
+        "text": "i'd like to see a list of courses"
+      },
+      {
+        "intent": "info_major",
+        "text": "what is this major about"
+      },
+      {
+        "intent": "info_major",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "compsci",
+            "entity": "major"
+          }
+        ],
+        "text": "what is compsci about"
+      },
+      {
+        "intent": "info_major",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "compsci",
+            "entity": "major"
+          }
+        ],
+        "text": "tell me more about compsci"
+      },
+      {
+        "intent": "info_news",
+        "text": "whats new"
+      },
+      {
+        "intent": "info_news",
+        "text": "news"
+      },
+      {
+        "intent": "info_news",
+        "text": "anything new"
+      },
+      {
+        "intent": "info_news",
+        "text": "tell me some of the news"
+      },
+      {
+        "intent": "calendar",
+        "text": "where can i find the calendar"
+      },
+      {
+        "intent": "calendar",
+        "text": "where is the calendar"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "compsci",
+        "synonyms": [
+          "computer science",
+          "cs",
+          "computerscience"
+        ]
+      }
+    ]
+  }
+}

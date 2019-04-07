@@ -1,0 +1,34 @@
+[web]
+address = ":4040"
+
+defaultEntryPoints = ["http"]
+
+[entryPoints]
+  [entryPoints.http]
+  address = ":80"
+
+[file]
+
+[backends]
+  [backends.chatapp]
+    [backends.chatapp.servers.server1]
+    url = "http://127.0.0.1:5000"
+  [backends.chatapp_api]
+    [backends.chatapp_api.servers.server1]
+    url = "http://127.0.0.1:3000"
+
+[frontends]
+  [frontends.chatapp_api]
+  backend = "chatapp_api"
+  passHostHeader = true
+  [frontends.chatapp.routes.api_ask]
+  rule = "PathPrefix:/api/ask;PathPrefixStrip:/api;"
+
+  [frontends.chatapp]
+  backend = "chatapp"
+  passHostHeader = true
+
+
+
+
+# traefik_windows-amd64.exe -c serve.toml
