@@ -1,0 +1,3 @@
+[submodule "chatbot_frontend"]
+	path = chatbot_frontend
+	url = https://github.com/4900ChatBot/chatbot_frontend.git
