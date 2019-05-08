@@ -93,7 +93,7 @@ RUN apt install -y nodejs
 RUN pip install rasa_core
 RUN pip install rasa_nlu[tensorflow]
 
-COPY backend/ chatbot_frontend/chatbot-frontend/ /app/
+COPY backend/ chatbot_frontend/ /app/
 
 
 WORKDIR /app
