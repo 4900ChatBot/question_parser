@@ -9,7 +9,10 @@ LABEL maintainer="Juliano Petronetto <juliano@petronetto.com.br>" \
       vendor="Petronetto DevTech" \
       version="1.0"
 
-RUN git submodule update --init --recursive
+RUN set -ex; \
+    apt-get update -y; \
+    apt-get install -y git; \
+    git submodule update --init --recursive
 
 ENV BUILD_PACKAGES="\
         build-essential \
