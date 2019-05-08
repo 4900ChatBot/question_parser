@@ -1,28 +1,42 @@
 # question_parser
 ##### CISC 4900 group project
 
-##### Test Q&A data for CIS department undergrad program:
-```yaml
----
-- q: Where is the CIS department?
-  a: It's in room 2109 Ingersoll Hall
-- q: What majors can I choose from?
-  a: B.S. in Computer Science (Java), B.S. in Multimedia Computing (Java), and B.S. in Information Systems (Java)
-- q: Where can I find all the available courses?
-  a: Check out this link http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/graduate/courses_g.php?sch=n&div=G&disc=CISC.&department=22&dept_id=109
+Chatbot for CIS department undergrad program:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## setup
+
+frontend
 ```
-
-### setup
-Python 3.6.8
-64bit
-
-### rasa
-```sh
+pushd chatbot_frontend\chatbot-frontend
+npm i
+popd
+```
+backend
+```
 pip install -U rasa_core
 pip install rasa_nlu[tensorflow]
-python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
-python -m rasa_core.train -d domain.yml -s stories.md -o models/dialogue
+python -m rasa_nlu.train -c get_intent_config.yml --data get_intent.md -o models --fixed_model_name get_intent --project current --verbose
+python -m rasa_core.train -d domain_chatbot.yml -s stories_chatbot.md -o models/dialogue_chatbot
+```
+make sure you're running Python 3.6.x
+tested on 64bit
 
+## Development
+traefik
+```
+traefik -c serve.toml
+```
+frontend
+```
+pushd chatbot_frontend\chatbot-frontend
+npm run serve
+popd
+```
+backend
+```
+python server.py
 ```
 
 ### Trouble shooting
