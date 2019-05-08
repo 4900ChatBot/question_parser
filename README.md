@@ -1,7 +1,5 @@
 # question_parser
 ##### CISC 4900 group project
-Throw away repository for experimenting with question parsing implementations.
-Feel free to add any alternate solutions
 
 ##### Test Q&A data for CIS department undergrad program:
 ```yaml
@@ -25,18 +23,6 @@ pip install rasa_nlu[tensorflow]
 python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 python -m rasa_core.train -d domain.yml -s stories.md -o models/dialogue
 
-```
-
-### Spacy
-```sh
-pip install spacy
-python -m spacy download en_core_web_sm
-```
-
-### TextBlob
-```sh
-pip install textblob
-python -m textblob.download_corpora
 ```
 
 ### Trouble shooting
