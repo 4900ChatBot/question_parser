@@ -11,14 +11,17 @@ RUN pip install rasa_nlu[tensorflow]
 
 COPY backend/ chatbot_frontend/ /app/
 
-WORKDIR /app/chatbot-frontend
-RUN npm i
 
 WORKDIR /app
 RUN python -m rasa_nlu.train -c get_intent_config.yml --data get_intent.md -o models --fixed_model_name get_intent --project current --verbose \
   && python -m rasa_core.train -d domain_chatbot.yml -s stories_chatbot.md -o models/dialogue_chatbot
 
+WORKDIR /app/chatbot-frontend
+RUN npm i && npm run build && \
+  cp -R build /app/static
+
+
 WORKDIR /app
-CMD bash
+CMD python server.prod.py
 # docker build -t chatbot .
-# docker run -p 3000:3000 -i -t chatbot
+# docker run -p 5000:5000 -i -t chatbot
