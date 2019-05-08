@@ -1,0 +1,37 @@
+intents:
+  - greet
+  - bye
+  - course_list
+  - info_major
+  - info_news
+  - calendar
+
+actions:
+- utter_greet
+- utter_bye
+- utter_course_list
+- utter_info_major
+- utter_info_news
+- utter_calendar
+
+templates:
+  utter_compsci:
+  - text: "AAa"
+
+  utter_greet:
+  - text: "BBb"
+
+  utter_bye:
+  - text: "CCc"
+
+  utter_course_list:
+  - text: "DDd"
+
+  utter_info_major:
+  - text: "EEe"
+
+  utter_info_news:
+  - text: "FFf"
+
+  utter_calendar:
+  - text: "GGg"

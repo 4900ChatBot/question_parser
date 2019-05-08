@@ -21,6 +21,6 @@ app = Flask(__name__)
 
 @app.route('/ask/<question>')
 def ask(question):
-    return json.dumps(interpreter.parse(question))
+	return json.dumps(interpreter.parse(question))
 
 app.run()
