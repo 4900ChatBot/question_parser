@@ -12,6 +12,7 @@ LABEL maintainer="Juliano Petronetto <juliano@petronetto.com.br>" \
 RUN set -ex; \
     apt-get update -y; \
     apt-get install -y git; \
+    rm -rf chatbot_frontend; \
     git clone https://github.com/4900ChatBot/chatbot_frontend.git ;
 
 ENV BUILD_PACKAGES="\
