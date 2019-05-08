@@ -14,7 +14,7 @@ RUN set -ex; \
     apt-get install -y git; \
     rm -rf chatbot_frontend; \
     git clone https://github.com/4900ChatBot/chatbot_frontend.git ; \
-    cp chatbot_frontend/ /app/
+    cp -r chatbot_frontend/ /app/
 
 ENV BUILD_PACKAGES="\
         build-essential \
