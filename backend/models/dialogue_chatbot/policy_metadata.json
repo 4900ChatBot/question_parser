@@ -3,7 +3,22 @@
     "action_listen": {
       "slots": []
     },
+    "utter_course_list": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_info_news": {
+      "slots": []
+    },
+    "utter_bye": {
+      "slots": []
+    },
     "utter_calendar": {
+      "slots": []
+    },
+    "utter_info_major": {
       "slots": []
     }
   },
@@ -21,7 +36,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190508-001908",
+  "trained_at": "20190508-010400",
   "rasa_core": "0.13.2",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

@@ -27,16 +27,26 @@ intents:
 slots: {}
 templates:
   utter_bye:
-  - text: CCc
+  - text: good bye!
+  - text: bye!
   utter_calendar:
-  - text: GGg
-  utter_compsci:
-  - text: AAa
+  - text: 'calendar can be found here: http://www.brooklyn.cuny.edu/web/about/administration/enrollment/registrar/bulletins.php'
   utter_course_list:
-  - text: DDd
+  - text: 'you can find list of courses here: http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.'
   utter_greet:
-  - text: BBb
+  - text: hi
+  - text: hello
   utter_info_major:
-  - text: EEe
+  - text: "If computing is your life and you would like to make it your livelihood,\
+      \ consider this: Brooklyn College's Department of Computer and Information Science\
+      \ is one of the largest in metropolitan New York. Our full-time faculty consists\
+      \ of 25 professors, and our facilities and equipment are among the best in the\
+      \ city. On-campus computer hubs house more than 1,000 PCs and Macs for your\
+      \ use, and wireless Internet connections are available at many locations. You'll\
+      \ have your pick of opportunities in ever-evolving fields relevant to industrial\
+      \ or academic careers, such as robotics, software engineering, computing education,\
+      \ parallel and distributed computing, information systems, and bioinformatics.\
+      \ The department offers master's degrees in computer science, health informatics,\
+      \ and information systems, and is an active participant in the PIMA-M.F.A. program."
   utter_info_news:
-  - text: FFf
+  - text: 'news can be found here: http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/news.php'
