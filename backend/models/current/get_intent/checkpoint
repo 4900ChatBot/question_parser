@@ -1,2 +1,2 @@
-model_checkpoint_path: "F:\\rasatest\\rasa\\models\\current\\get_intent\\intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "F:\\rasatest\\rasa\\models\\current\\get_intent\\intent_classifier_tensorflow_embedding.ckpt"
+model_checkpoint_path: "F:\\chatbot\\question_parser\\backend\\models\\current\\get_intent\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "F:\\chatbot\\question_parser\\backend\\models\\current\\get_intent\\intent_classifier_tensorflow_embedding.ckpt"

@@ -1,0 +1,42 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_bye
+- utter_course_list
+- utter_info_major
+- utter_info_news
+- utter_calendar
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- bye:
+    use_entities: true
+- course_list:
+    use_entities: true
+- info_major:
+    use_entities: true
+- info_news:
+    use_entities: true
+- calendar:
+    use_entities: true
+slots: {}
+templates:
+  utter_bye:
+  - text: CCc
+  utter_calendar:
+  - text: GGg
+  utter_compsci:
+  - text: AAa
+  utter_course_list:
+  - text: DDd
+  utter_greet:
+  - text: BBb
+  utter_info_major:
+  - text: EEe
+  utter_info_news:
+  - text: FFf
