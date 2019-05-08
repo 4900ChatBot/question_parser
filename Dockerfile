@@ -12,7 +12,7 @@ LABEL maintainer="Juliano Petronetto <juliano@petronetto.com.br>" \
 RUN set -ex; \
     apt-get update -y; \
     apt-get install -y git; \
-    git clone https://github.com/4900ChatBot/chatbot_frontend.git . ;
+    git clone https://github.com/4900ChatBot/chatbot_frontend.git ;
 
 ENV BUILD_PACKAGES="\
         build-essential \
@@ -93,7 +93,7 @@ RUN apt install -y nodejs
 RUN pip install rasa_core
 RUN pip install rasa_nlu[tensorflow]
 
-COPY backend/ chatbot_frontend/ /app/
+COPY backend/ chatbot_frontend/chatbot-frontend/ /app/
 
 
 WORKDIR /app
