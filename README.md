@@ -39,14 +39,14 @@ backend
 python server.py
 ```
 
-### Trouble shooting
+## Trouble shooting
 on windows, run the following to set up build tools first if you run into any compile errors when installing any of the above dependencies
 ```cmd
 %comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" amd64 8.1
 ```
 also make sure you're using latest python or else you might get error related to the typing package
 
-### How can I contribute?
+## How can I contribute?
 ```ruby
 "R29ldHo0OTAwOzQ5MDBDaGF0Qm90\n"
 ```

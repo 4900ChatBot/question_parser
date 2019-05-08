@@ -1,0 +1,6 @@
+{
+    "name": "question-parser",
+    "description": "4900chatbot",
+    "keywords": ["bot", "chat"],
+    "stack": "container"
+}

@@ -1,0 +1,6 @@
+.git
+.bundle
+vendor
+*.md
+.env
+chatbot_frontend/chatbot-frontend/node_modules
