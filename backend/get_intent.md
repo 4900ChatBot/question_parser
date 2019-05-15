@@ -1,32 +1,3 @@
-## synonym:compsci
-- computer science
-- cs
-- compsci
-- computerscience
-- this major
-- major
-- the major
-
-## synonym:bc
-- Brooklyn College
-- school
-- college
-
-## synonym:timeline
-- calendar
-- academic calendar
-- schedule
-
-## synonym:grad
-- grad school
-- graduate school
-
-## synonym:courses
-- classes
-- courses
-- class
-- course
-
 ## intent:greet
 - Hi
 - Hey
@@ -329,30 +300,93 @@
 - use
 
 ## intent:course_list
-- can i get a list of [courses](ccc)
-- i'd like to see a list of [courses](ccc)
-- what [courses](ccc) are there
-- what [courses](ccc) can i take
-- [courses](ccc)
+- can i get a list of classes
+- i'd like to see a list of classes
+- what classes are there
+- what classes can i take
+- classes
+- can i get a list of courses
+- i'd like to see a list of courses
+- what courses are there
+- what courses can i take
+- courses
+- can i get a list of course
+- i'd like to see a list of course
+- what course are there
+- what course can i take
+- course
+- can i get a list of class
+- i'd like to see a list of class
+- what class are there
+- what class can i take
+- class
 
 ## intent:ask_about
-- are there some information i could look about [compsci](mmm)
-- do you have information on [compsci](mmm)
-- i need a information about [compsci](mmm)
-- [compsci](mmm) information
-- can you show me more about [compsci](mmm)
-- i would like to read more on [compsci](mmm)
-- do you have a [compsci](mmm) website that i can visit
-- i am looking for a [compsci](mmm) website
-- i want a summary on [compsci](mmm)
-- i need a overview on [compsci](mmm)
-- please show me more on [compsci](mmm)
-- why should I major [compsci](mmm)
-- why would I pick [compsci](mmm)
+- are there some information i could look about compsci
+- do you have information on compsci
+- i need a information about compsci
+- compsci information
+- can you show me more about compsci
+- i would like to read more on compsci
+- do you have a compsci website that i can visit
+- i am looking for a compsci website
+- i want a summary on compsci
+- i need a overview on compsci
+- please show me more on compsci
+- why should I major compsci
+- why would I pick compsci
 - whats the appeal?
-- should I major [compsci](mmm)
-- what is [compsci](mmm) about
-- tell me more about [compsci](mmm)
+- should I major compsci
+- what is compsci about
+- tell me more about compsci
+- are there some information i could look about cs
+- do you have information on cs
+- i need a information about cs
+- cs information
+- can you show me more about cs
+- i would like to read more on cs
+- do you have a cs website that i can visit
+- i am looking for a cs website
+- i want a summary on cs
+- i need a overview on cs
+- please show me more on cs
+- why should I major cs
+- why would I pick cs
+- should I major cs
+- what is cs about
+- tell me more about cs
+- are there some information i could look about computer science
+- do you have information on computer science
+- i need a information about computer science
+- computer science information
+- can you show me more about computer science
+- i would like to read more on computer science
+- do you have a computer science website that i can visit
+- i am looking for a computer science website
+- i want a summary on computer science
+- i need a overview on computer science
+- please show me more on computer science
+- why should I major computer science
+- why would I pick computer science
+- should I major computer science
+- what is computer science about
+- tell me more about computer science
+- are there some information i could look about this major
+- do you have information on this major
+- i need a information about this major
+- this major's information
+- can you show me more about this major
+- i would like to read more on this major
+- do you have a this major website that i can visit
+- i am looking for a this major website
+- i want a summary on this major
+- i need a overview on this major
+- please show me more on this major
+- why should I major this major
+- why would I pick this major
+- should I major this major
+- what is this major about
+- tell me more about this major
 
 ## intent:advice
 - do you have any advice for me
@@ -376,56 +410,140 @@
 - do you have an event this month?
 
 ## intent:calendar
-- where can i find the [timeline](ttt)
-- where is the [timeline](ttt)
-- I need the [timeline](ttt)
-- show me [timeline](ttt)
-- give me [timeline](ttt)
-- I need [timeline](ttt)
+- where can i find the calendar
+- where can i find the academic calendar
+- where can i find the schedule
+- where is the calendar
+- where is the academic calendar
+- where is the schedule
+- I need the calendar
+- I need the academic calendar
+- I need the schedule
+- show me calendar
+- show me academic calendar
+- show me schedule
+- show me the calendar
+- show me the academic calendar
+- show me the schedule
+- get me the calendar
+- get me the academic calendar
+- get me the schedule
+- give me calendar
+- give me academic calendar
+- give me schedule
+- I want calendar
+- I want academic calendar
+- I want schedule
+- I need calendar
+- I need academic calendar
 - I need schedule
 
 ## intent:programs
-- tell me about the [compsci](mmm) programs at [bc](bbb)
-- what programs are in the [compsci](mmm) department?
-- where can I find more about [compsci](mmm) programs?
+- tell me about the computer science programs Brooklyn College
+- tell me about the computer science programs at this school
+- tell me about the computer science programs at this college
+- tell me about the cs programs Brooklyn College
+- tell me about the cs programs at this school
+- tell me about the cs programs at this college
+- tell me about the compsci programs Brooklyn College
+- tell me about the compsci programs at this school
+- tell me about the compsci programs at this college
+- tell me about the programs Brooklyn College
+- tell me about the programs at this school
+- tell me about the programs at this college
+- tell me about the computer science programs
+- tell me about the cs programs
+- tell me about the compsci programs
+- tell me about the programs
+- what programs are in the computer science department?
+- what programs are in the cs department?
+- what programs are in the compsci department?
+- what programs are in the the department?
+- where can I find more about computer science programs?
+- where can I find more about cs programs?
+- where can I find more about compsci programs?
+- where can I find more about programs?
 - what programs should I pick?
 - programs
 
 ## intent:grad_prepare
-- how can I prepare myself for [grad](ggg)
-- what should I do if I'm planning to go to [grad](ggg)
-- I'm going to [grad](ggg)
+- how can I prepare myself for grad school
+- how can I prepare myself for graduate school
+- what should I do if I'm planning to go to grad school
+- what should I do if I'm planning to go to graduate school
+- I'm going to grad school
+- I'm going to graduate school
 
 ## intent:prerequisites
-- what [courses](ccc) are needed for a [compsci](mmm) major?
+- what classes are needed for a computer science major?
+- what classes are needed for a compsci major?
+- what classes are needed for a cs major?
+- what courses are needed for a computer science major?
+- what courses are needed for a compsci major?
+- what courses are needed for a cs major?
 - what are the prerequisites?
-- what [courses](ccc) should I take?
-- what is the right [courses](ccc) to choose?
-- what would be a good [courses](ccc) to start with?
-- what [courses](ccc) is better?
-- what [courses](ccc) should I start with?
-- I don’t know which [courses](ccc) to take
-- what [courses](ccc) is better?
-- which [courses](ccc) is better?
-- recommend [courses](ccc)
-- [courses](ccc) recommendation
-- tell me about [courses](ccc)
-- what [courses](ccc) do i need to take?
+- what classes should I take?
+- what courses should I take?
+- what is the right classes to choose?
+- what is the right courses to choose?
+- what would be a good classes to start with?
+- what would be a good courses to start with?
+- what classes is better?
+- what courses is better?
+- what classes should I start with?
+- what courses should I start with?
+- I don't know which classes to take
+- I don't know which courses to take
+- what classes is better?
+- what courses is better?
+- which classes is better?
+- which courses is better?
+- recommend classes
+- recommend courses
+- classes recommendation
+- courses recommendation
+- tell me about classes
+- tell me about courses
+- what classes do i need to take?
+- what courses do i need to take?
+- what courses are required?
+- what courses are needed?
+- what courses are required to graduate?
+- what courses are needed to graduate?
 
 <!-- Location: 2109 Ingersoll Hall  -->
 ## intent:get_office
+- can i have the address?
+- can i have the department address?
+- can i have the office's address?
 - where can I find the department?
+- where can I find the office?
 - where is the office located?
 - where should I go to ask in person?
-- where in [bc](bbb) are you?
-- point me where to find the [compsci](mmm) department
-- I need to know where [compsci](mmm) department is
+- where in Brooklyn College are you?
+- where in school are you?
+- where in college are you?
+- where in campus are you?
+- point me where to find the computer science department
+- point me where to find the cs department
+- point me where to find the compsci department
+- point me where to find the department
+- I need to know where department is
+- I need to know where computer science department is
+- I need to know where cs department is
+- I need to know where compsci department is
+- I need to know where this major's department is
 
 <!-- Phone: 718.951.5657  -->
 ## intent:get_phone
+- can I get the phone number?
 - can I have your phone number?
 - what number should I call to ask further questions?
-- let me know the [compsci](mmm) department phone number
+- let me know the department phone number
+- let me know the computer science department phone number
+- let me know the cs department phone number
+- let me know the compsci department phone number
+- let me know this major's department phone number
 - what number would you suggest me to call?
 - I need to make a call
 - can you give me contact
@@ -435,8 +553,19 @@
 
 <!-- http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/facebook.php -->
 ## intent:get_facebook
+- what's your facebook?
 - what's your facebook page?
-- what's the [compsci](mmm) department facebook?
+- what's the computer science department facebook?
+- what's the computer science department facebook page?
+- what's the cs department facebook?
+- what's the compsci department facebook?
+- what's this major's department facebook?
+- what's the major's department facebook?
+- what's the computer science department facebook page?
+- what's the cs department facebook page?
+- what's the compsci department facebook page?
+- what's this major's department facebook page?
+- what's the major's department facebook page?
 - facebook?
 - give me the facebook link
 
@@ -445,15 +574,47 @@
 # intent:get_website
 - I want to visit the website
 - link me to the website
-- I need the link to the [compsci](mmm) department page
-- where is the page about [compsci](mmm) department
-- get me to the [bc](bbb) [compsci](mmm) website
-- where is [compsci](mmm) website
-- get me to [compsci](mmm) department page
-- get me to department page
+- I need the link to the computer science department page
+- I need the link to the cs department page
+- I need the link to the compsci department page
+- I need the link to this major's department page
+- I need the link to the major's department page
+- where is the page about computer science department
+- where is the page about cs department
+- where is the page about compsci department
+- where is the page about the department
+- get me to the department website
+- get me to the department page
+- get me to the computer science department website
+- get me to the computer science department page
+- get me to the compsci website
+- get me to the compsci page
+- get me to the major's website
+- get me to the major's page
+- get me to this major's website
+- get me to this major's page
+- where is the website
+- get me to the page
+- where is computer science website
+- where is cs website
+- where is compsci website
+- where is the website for this major
+- where is the major's website
+- get me to the computer science department page
+- get me to the cs department page
+- get me to the compsci department page
+- get me to this major's department page
+- get me to the major's department page
+- get me to the department page
+- I want the computer science department page
+- I want the cs department page
+- I want the compsci department page
+- I want this major's department page
+- I want the major's department page
+- I want the department page
 - show me the department page
 - get me to major page
-- show me the major page
+- show me the major's page
 
 
 <!-- http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/email.php -->
@@ -472,7 +633,10 @@
 <!-- I'd recommend you to ask us in person -->
 ## intent:oddly_specific
 - how do I register
-- how do I drop a [courses](ccc)
+- how do I drop a class
+- how do I drop classes
+- how do I drop a courses
+- how do I drop courses
 - what is the fax number
 - who is the Department Chairperson?
 - who is the Deputy Chairperson for Graduate Studies?
@@ -480,6 +644,9 @@
 - who is Deputy Chairperson (SGS)?
 - where can I find Langsam?
 - how do I graduate?
+- when can i leave?
+- when can i graduate?
+- where to find help
 
 ## intent:usage
 - what can you do?
