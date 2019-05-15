@@ -679,4 +679,22 @@
 - information
 - what is this about
 
+<!-- 
+TBD stuff
 
+
+What are the courses I need to take for a general major in Computer Science?
+	Here is a flowchart of the courses needed for a general Computer Science Degree, complete with departmental advice https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html
+
+What are the courses I need to take to major in Multimedia Computing?
+Here is a flowchart of the courses needed for a degree in Multimedia Computing, complete with departmental advice https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMajor.html
+What are the courses I need to take for a general major in Information Systems?
+Here is a flowchart of the courses needed for a degree in Information Systems, complete with departmental advice https://brooklyncisdept.github.io/brochures/UndergradContent/ISMajor.html
+I want to major in Multimedia Computing
+	You can find out more about our Multimedia Computing major here https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMajor.html
+I want to major in Information Systems
+You can find out more about our Information Systems major here https://brooklyncisdept.github.io/brochures/UndergradContent/ISMajor.html
+I want to minor in Computer Science
+You can find a concise breakdown of Brooklyn College’s Computer Science minor here https://brooklyncisdept.github.io/brochures/UndergradContent/CSMinor.html
+I want to minor in Cognitive Science 
+	You can find a concise breakdown of Brooklyn College’s Cognitive Science minor here https://brooklyncisdept.github.io/brochures/UndergradContent/CogSciMinor.html -->
