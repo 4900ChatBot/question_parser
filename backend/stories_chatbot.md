@@ -15,9 +15,25 @@
   - utter_info_major
 
 ## path e
+* advice
+  - utter_advice
+
+## path f
 * info_news
   - utter_info_news
 
-## path f
+## path g
 * calendar
   - utter_calendar
+
+## path h
+* programs
+  - utter_programs
+
+## path i
+* grad_prepare
+  - utter_grad_prepare
+
+## path j
+* prerequisites
+  - utter_prerequisites

@@ -3,16 +3,24 @@ intents:
   - bye
   - course_list
   - info_major
+  - advice
   - info_news
   - calendar
+  - programs
+  - grad_prepare
+  - prerequisites
 
 actions:
 - utter_greet
 - utter_bye
 - utter_course_list
 - utter_info_major
+- utter_advice
 - utter_info_news
 - utter_calendar
+- utter_programs
+- utter_grad_prepare
+- utter_prerequisites
 
 templates:
   utter_greet:
@@ -24,13 +32,27 @@ templates:
   - text: "bye!"
 
   utter_course_list:
-  - text: "you can find list of courses here: http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC."
+  - text: 'you can find list of courses here: <a href="http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.">http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.</a>'
 
   utter_info_major:
-  - text: "If computing is your life and you would like to make it your livelihood, consider this: Brooklyn College's Department of Computer and Information Science is one of the largest in metropolitan New York. Our full-time faculty consists of 25 professors, and our facilities and equipment are among the best in the city. On-campus computer hubs house more than 1,000 PCs and Macs for your use, and wireless Internet connections are available at many locations. You'll have your pick of opportunities in ever-evolving fields relevant to industrial or academic careers, such as robotics, software engineering, computing education, parallel and distributed computing, information systems, and bioinformatics. The department offers master's degrees in computer science, health informatics, and information systems, and is an active participant in the PIMA-M.F.A. program."
+  - text: 'Here’s a breakdown of the benefits of majoring in Computer Science: <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html">https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html</a>'
+
+  utter_advice:
+  - text: 'Here is some advice that our Computer Science Professors have curated for our students <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html">https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html</a>'
 
   utter_info_news:
-  - text: "news can be found here: http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/news.php"
+  - text: 'news can be found here: <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/news.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/news.php</a>'
 
   utter_calendar:
-  - text: "calendar can be found here: http://www.brooklyn.cuny.edu/web/about/administration/enrollment/registrar/bulletins.php"
+  - text: 'calendar can be found here: <a href="http://www.brooklyn.cuny.edu/web/about/administration/enrollment/registrar/bulletins.php">http://www.brooklyn.cuny.edu/web/about/administration/enrollment/registrar/bulletins.php</a>'
+
+  utter_programs:
+  - text: 'Here is a comprehensive list of our Computer Science programs complete with Department recommendations <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html">https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html</a>'
+
+  utter_grad_prepare:
+  - text: 'This page has a list of Computer Science courses that will help you to prepare for Graduate School <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html">https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html</a>'
+
+  utter_prerequisites:
+  - text: 'Here is a flowchart of the courses needed for a BSc in Computer Science, complete with prerequisites <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html</a>'
+
+  
