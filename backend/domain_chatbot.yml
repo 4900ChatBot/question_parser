@@ -96,19 +96,18 @@ templates:
   - text: "currently I can answer questions about the following:\
     <pre><small>\
 - list of courses\n\
-- benefits of taking compsci\n\
-- what compsci is about\n\
+- why would one major compsci\n\
 - where to seek advices\n\
-- show where to find latest news\n\
+- latest news\n\
 - link to academic calendar\n\
 - what programs do we have\n\
-- information on preparing for grad school\n\
-- link to the prerequisites graph\n\
+- grad school preparation\n\
+- link to prerequisites graph\n\
 - location of our department\n\
-- phone number for contacting us\n\
+- department phone number\n\
 - url of facebook page\n\
 - url of department page\n\
-- how to get into the mailing list\n\
+- joining the mailing list\n\
 - usage of this bot\
     </small></pre>"
 
