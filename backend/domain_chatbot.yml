@@ -1,26 +1,49 @@
+entities:
+  - ccc
+  - bbb
+  - mmm
+  - ttt
+  - ggg
+
 intents:
   - greet
   - bye
+  - out_of_scope
   - course_list
-  - info_major
+  - ask_about
   - advice
   - info_news
   - calendar
   - programs
   - grad_prepare
   - prerequisites
+  - get_office
+  - get_phone
+  - get_facebook
+  - get_website
+  - get_mailing_list
+  - oddly_specific
+  - usage
 
 actions:
 - utter_greet
 - utter_bye
+- utter_out_of_scope
 - utter_course_list
-- utter_info_major
+- utter_ask_about
 - utter_advice
 - utter_info_news
 - utter_calendar
 - utter_programs
 - utter_grad_prepare
 - utter_prerequisites
+- utter_get_office
+- utter_get_phone
+- utter_get_facebook
+- utter_get_website
+- utter_get_mailing_list
+- utter_oddly_specific
+- utter_usage
 
 templates:
   utter_greet:
@@ -31,10 +54,13 @@ templates:
   - text: "good bye!"
   - text: "bye!"
 
+  utter_out_of_scope:
+  - text: "Sorry I wasn't configured to answer that"
+
   utter_course_list:
   - text: 'you can find list of courses here: <a href="http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.">http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.</a>'
 
-  utter_info_major:
+  utter_ask_about:
   - text: 'Here’s a breakdown of the benefits of majoring in Computer Science: <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html">https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html</a>'
 
   utter_advice:
@@ -55,4 +81,44 @@ templates:
   utter_prerequisites:
   - text: 'Here is a flowchart of the courses needed for a BSc in Computer Science, complete with prerequisites <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html</a>'
 
-  
+  utter_get_office:
+  - text: '2109 Ingersoll Hall'
+
+  utter_get_phone:
+  - text: '718.951.5657'
+
+  utter_get_facebook:
+  - text: 'Here is a link to our facebook page <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/facebook.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/facebook.php</a>'
+
+  utter_get_website:
+  - text: 'Here is a link the department page <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers.php</a>'
+
+  utter_get_mailing_list:
+  - text: 'Here is a link the department page <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/email.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/email.php</a>'
+
+  utter_oddly_specific:
+  - text: "Sorry I cannot answer that, I'd recommend going to campus and ask us in person"
+
+  utter_usage:
+  - text: "currently I support the following intents:\
+    <pre><small>\
+- greet\n\
+- bye\n\
+- out_of_scope\n\
+- course_list\n\
+- ask_about\n\
+- advice\n\
+- info_news\n\
+- calendar\n\
+- programs\n\
+- grad_prepare\n\
+- prerequisites\n\
+- get_office\n\
+- get_phone\n\
+- get_facebook\n\
+- get_website\n\
+- get_mailing_list\n\
+- oddly_specific\n\
+- usage\
+    </small></pre>"
+
