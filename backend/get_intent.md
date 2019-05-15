@@ -679,10 +679,8 @@
 - information
 - what is this about
 
+
 <!-- 
-TBD stuff
-
-
 What are the courses I need to take for a general major in Computer Science?
 	Here is a flowchart of the courses needed for a general Computer Science Degree, complete with departmental advice https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html
 
@@ -697,4 +695,19 @@ You can find out more about our Information Systems major here https://brooklync
 I want to minor in Computer Science
 You can find a concise breakdown of Brooklyn College’s Computer Science minor here https://brooklyncisdept.github.io/brochures/UndergradContent/CSMinor.html
 I want to minor in Cognitive Science 
-	You can find a concise breakdown of Brooklyn College’s Cognitive Science minor here https://brooklyncisdept.github.io/brochures/UndergradContent/CogSciMinor.html -->
+	You can find a concise breakdown of Brooklyn College’s Cognitive Science minor here https://brooklyncisdept.github.io/brochures/UndergradContent/CogSciMinor.html
+
+I want to minor in Multimedia Computing
+You can find a concise breakdown of Brooklyn College’s Multimedia Computing minor here https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMinor.html
+I am interested in both Math/Mathematics and Computer Science	
+Interested in both Mathematics and Computer Science? Take a look at our Computational Mathematics program! https://brooklyncisdept.github.io/brochures/UndergradContent/CompMathMajor.html
+I need Graduate School advice
+This FAQ list answers a question or two about graduate school https://brooklyncisdept.github.io/brochures/UndergradContent/FAQ.html
+I want to get started in Computer Science / How do I get started in Computer Science
+Please take a look at this FAQ list for useful advice on getting started https://brooklyncisdept.github.io/brochures/UndergradContent/FAQ.html
+How do I graduate with honors?
+You can find more information about graduating with honors here https://brooklyncisdept.github.io/brochures/UndergradContent/honors.html
+I am looking for professor _____. / How do I find professor _____?
+Here is a list of the full time professors in our department with their extensions, email and office locations https://brooklyncisdept.github.io/brochures/UndergradContent/FTfaculty.html
+If the professor you are looking for is not here, please refer to the Brooklyn College directory http://websql.brooklyn.cuny.edu/directory/
+ -->
