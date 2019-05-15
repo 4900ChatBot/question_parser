@@ -4,6 +4,7 @@
 - Hi bot
 - Hey bot
 - Hello
+- Greeting
 - Good morning
 - hi again
 - hi folks
@@ -92,7 +93,7 @@
 - tschüssikowski
 - bye!
 
-## intent:affirm
+<!-- ## intent:affirm
 - good job
 - yes
 - of course
@@ -144,7 +145,7 @@
 - great
 - oh cool
 - yes
-- fine
+- fine -->
 
 <!-- 
 ## intent:deny
@@ -389,6 +390,7 @@
 - tell me more about this major
 
 ## intent:advice
+- give me some advice
 - do you have any advice for me
 - what should I do
 - what actions would you recommend
@@ -544,7 +546,6 @@
 - let me know the cs department phone number
 - let me know the compsci department phone number
 - let me know this major's department phone number
-- what number would you suggest me to call?
 - I need to make a call
 - can you give me contact
 - I want phone
@@ -571,7 +572,11 @@
 
 
 <!-- http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers.php -->
-# intent:get_website
+## intent:get_website
+- can i get the link to the department page
+- whats the url
+- whats the url to the website
+- whats the url to the page
 - I want to visit the website
 - link me to the website
 - I need the link to the computer science department page
