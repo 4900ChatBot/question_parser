@@ -515,6 +515,9 @@
 
 <!-- Location: 2109 Ingersoll Hall  -->
 ## intent:get_office
+- location
+- office location
+- show me the office location
 - can i have the address?
 - can i have the department address?
 - can i have the office's address?
@@ -633,7 +636,11 @@
 - how do I subscribe for emails
 - how do I keep track of all the news
 - I want to keep myself updated
+- I want to keep myself notified about the news
 - I want to get notified about the news 
+- i want to keep track of the latest info
+- i want to keep track of the latest news
+- I want to receive emails
 
 <!-- I'd recommend you to ask us in person -->
 ## intent:oddly_specific
