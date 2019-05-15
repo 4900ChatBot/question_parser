@@ -321,6 +321,8 @@
 - what class are there
 - what class can i take
 - class
+- can you give me a list of courses
+- can you give me a list of classes
 
 ## intent:ask_about
 - are there some information i could look about compsci
@@ -398,8 +400,15 @@
 - what do I do?
 - I'm clueless
 - please help
+- can you give me some advices
+- where can i find more advices
+- where can i get advices
+- where can i get more advices
+- where to seek advices
+- where can i seek advices
 
 ## intent:info_news
+- whats going on recently
 - whats new
 - news
 - anything new
@@ -439,6 +448,7 @@
 - I need calendar
 - I need academic calendar
 - I need schedule
+- whats the scehdule
 
 ## intent:programs
 - tell me about the computer science programs Brooklyn College
@@ -512,6 +522,14 @@
 - what courses are needed?
 - what courses are required to graduate?
 - what courses are needed to graduate?
+- how do i know what class i should take before another
+- how do i know what course i should take before another
+- how do i know what classes i should take before another
+- how do i know what courses i should take before another
+- can i have the course graph
+- can i have the prerequisite graph
+- how do i know about the prerequisites
+- what courses do i need to take first?
 
 <!-- Location: 2109 Ingersoll Hall  -->
 ## intent:get_office
@@ -576,6 +594,7 @@
 
 <!-- http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers.php -->
 ## intent:get_website
+- where can i find more info about cs department
 - can i get the link to the department page
 - whats the url
 - whats the url to the website
@@ -659,6 +678,7 @@
 - when can i leave?
 - when can i graduate?
 - where to find help
+- I need help registering for classes
 
 ## intent:usage
 - what can you do?
