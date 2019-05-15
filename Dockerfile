@@ -77,7 +77,6 @@ RUN npm i && npm run build && \
   cp -R build /app/static
 
 WORKDIR /app
-# CMD python server.prod.py
-CMD bash
+CMD python server.prod.py
 # docker build -t chatbot .
 # docker run -p 5000:5000 -i -t chatbot
