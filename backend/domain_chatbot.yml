@@ -97,7 +97,6 @@ templates:
     <pre><small>\
 - greet\n\
 - bye\n\
-- out_of_scope\n\
 - course_list\n\
 - ask_about\n\
 - advice\n\
@@ -111,7 +110,6 @@ templates:
 - get_facebook\n\
 - get_website\n\
 - get_mailing_list\n\
-- oddly_specific\n\
 - usage\
     </small></pre>"
 
