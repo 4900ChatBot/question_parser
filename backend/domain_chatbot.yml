@@ -93,23 +93,22 @@ templates:
   - text: "Sorry I cannot answer that, I'd recommend going to campus and ask us in person"
 
   utter_usage:
-  - text: "currently I support the following intents:\
+  - text: "currently I can answer questions about the following:\
     <pre><small>\
-- greet\n\
-- bye\n\
-- course_list\n\
-- ask_about\n\
-- advice\n\
-- info_news\n\
-- calendar\n\
-- programs\n\
-- grad_prepare\n\
-- prerequisites\n\
-- get_office\n\
-- get_phone\n\
-- get_facebook\n\
-- get_website\n\
-- get_mailing_list\n\
-- usage\
+- list of courses\n\
+- benefits of taking compsci\n\
+- what compsci is about\n\
+- where to seek advices\n\
+- show where to find latest news\n\
+- link to academic calendar\n\
+- what programs do we have\n\
+- information on preparing for grad school\n\
+- link to the prerequisites graph\n\
+- location of our department\n\
+- phone number for contacting us\n\
+- url of facebook page\n\
+- url of department page\n\
+- how to get into the mailing list\n\
+- usage of this bot\
     </small></pre>"
 
