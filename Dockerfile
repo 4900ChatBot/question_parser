@@ -45,7 +45,6 @@ ENV BUILD_PACKAGES="\
         rasa_nlu[tensorflow] \
         mxnet-mkl" \
     LANG=C.UTF-8
-COPY backend/ /app/
 RUN set -ex; \
     rm -rf chatbot_frontend; \
     apt-get update -y; \
@@ -69,6 +68,7 @@ RUN set -ex; \
         /var/cache/apt/*.bin; \
     find /usr/lib/python3 -name __pycache__ | xargs rm -rf; \
     rm -rf /root/.[acpw]*;
+COPY backend/ /app/
 WORKDIR /app
 RUN python -m rasa_nlu.train -c get_intent_config.yml --data get_intent.md -o models --fixed_model_name get_intent --project current --verbose \
   && python -m rasa_core.train -d domain_chatbot.yml -s stories_chatbot.md -o models/dialogue_chatbot
@@ -77,6 +77,7 @@ RUN npm i && npm run build && \
   cp -R build /app/static
 
 WORKDIR /app
-CMD python server.prod.py
+# CMD python server.prod.py
+CMD bash
 # docker build -t chatbot .
 # docker run -p 5000:5000 -i -t chatbot
