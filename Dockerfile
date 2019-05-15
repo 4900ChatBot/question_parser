@@ -56,7 +56,6 @@ RUN set -ex; \
     apt-get install -y nodejs; \
     git clone https://github.com/4900ChatBot/chatbot_frontend.git; \
     cp -r chatbot_frontend/ /app/; \
-    cp -r backend/ /app/; \
     pip install -U -v setuptools wheel; \
     pip install -U -v ${PIP_PACKAGES}; \
     apt-get remove --purge --auto-remove -y ${BUILD_PACKAGES}; \
