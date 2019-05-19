@@ -2,14 +2,9 @@ intents:
   - greet
   - bye
   - out_of_scope
-  - course_list
-  - ask_about
-  - advice
+  - prerequisites
   - info_news
   - calendar
-  - programs
-  - grad_prepare
-  - prerequisites
   - get_office
   - get_phone
   - get_facebook
@@ -17,23 +12,72 @@ intents:
   - get_mailing_list
   - oddly_specific
   - usage
+  - faq_career
+  - faq_intro_course
+  - faq_1115_easy
+  - faq_1115_is_math_req
+  - faq_had_intro_from_other_college
+  - faq_first_step
+  - faq_decl_major
+  - faq_second_course
+  - faq_can_take_grad_course
+  - faq_where_learn_cpp
+  - faq_where_learn_non_cpp_java
+  - faq_research_opportunity
+  - faq_grad_school_prepare
+  - faq_why_compsci_professionally
+  - faq_do_i_need_grade_c_or_better
+  - index_why_compsci_p1
+  - index_transfer_advice_p1
+  - index_programs_p2
+  - index_about_major_cs_p3
+  - index_about_major_mmc_p4
+  - index_about_major_cis_p5
+  - index_about_minor_cs_p6
+  - index_about_minor_mmc_p7
+  - index_about_minor_cogni_p8
+  - index_about_major_compmath_p9
+  - index_courses_p11
+  - index_honors_p12
+  - index_student_societies_p13
+  - index_comp_and_lib_facilities
+  - index_web_resource
+  - index_faculties_p16_17
+  - where_brochure
+  - all_contact
+  - chairperson
+  - how_do_i_start
+  - show_faq
+
 
 actions:
 - utter_greet
 - utter_bye
 - utter_out_of_scope
-- utter_course_list
-- utter_ask_about
-- utter_advice
-- utter_info_news
-- utter_calendar
-- utter_programs
-- utter_grad_prepare
 - utter_prerequisites
-- utter_get_office
-- utter_get_phone
-- utter_get_facebook
-- utter_get_website
+- utter_faq
+- utter_index_why_compsci_p1
+- utter_index_transfer_advice_p1
+- utter_index_programs_p2
+- utter_index_about_major_cs_p3
+- utter_index_about_major_mmc_p4
+- utter_index_about_major_cis_p5
+- utter_index_about_minor_cs_p6
+- utter_index_about_minor_mmc_p7
+- utter_index_about_minor_cogni_p8
+- utter_index_about_major_compmath_p9
+- utter_index_courses_p11
+- utter_index_honors_p12
+- utter_index_student_societies_p13
+- utter_index_comp_and_lib_facilities
+- utter_index_web_resource
+- utter_index_faculties_p16_17
+- utter_where_brochure
+- utter_all_contact
+- utter_chairperson
+- utter_how_do_i_start
+- utter_calendar
+- utter_info_news
 - utter_get_mailing_list
 - utter_oddly_specific
 - utter_usage
@@ -50,64 +94,178 @@ templates:
   utter_out_of_scope:
   - text: "Sorry I wasn't configured to answer that"
 
-  utter_course_list:
-  - text: 'you can find list of courses here: <a href="http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.">http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.</a>'
+  utter_prerequisites:
+  - text: '
+  Here are the flowcharts of the courses needed for each majors
+  <br>
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html</a>
+  <br>
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMajor.html</a>
+  <br>
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/ISMajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/ISMajor.html</a>'
 
-  utter_ask_about:
-  - text: 'Here’s a breakdown of the benefits of majoring in Computer Science: <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html">https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html</a>'
+  utter_faq:
+  - text: 'Here is the FAQ page, you might find the answer to your question here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/FAQ.html">https://brooklyncisdept.github.io/brochures/UndergradContent/FAQ.html</a>'
 
-  utter_advice:
-  - text: 'Here is some advice that our Computer Science Professors have curated for our students <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html">https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html</a>'
+  utter_index_why_compsci_p1:
+  - text: 'Here''s a breakdown of the benefits of majoring in Computer Science: <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html">https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html</a>'
 
-  utter_info_news:
-  - text: 'news can be found here: <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/news.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/news.php</a>'
+  utter_index_transfer_advice_p1:
+  - text: 'Here is some advice that our Computer Science Professors have curated for transfer students
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html">https://brooklyncisdept.github.io/brochures/UndergradContent/whyCS.html</a>'
+
+  utter_index_programs_p2:
+  - text: 'Here is a comprehensive list of our Computer Science programs complete with Department recommendations
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html">https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html</a>'
+
+  utter_index_about_major_cs_p3:
+  - text: 'You can find out more about our Computer Science major here
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html</a>'
+
+  utter_index_about_major_mmc_p4:
+  - text: 'You can find out more about our Multimedia Computing major here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMajor.html</a>'
+
+  utter_index_about_major_cis_p5:
+  - text: 'You can find out more about our Information Systems major here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/ISMajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/ISMajor.html</a>'
+
+  utter_index_about_minor_cs_p6:
+  - text: 'You can find a concise breakdown of Brooklyn College’s Computer Science minor here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/CSMinor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/CSMinor.html</a>'
+
+  utter_index_about_minor_mmc_p7:
+  - text: 'You can find a concise breakdown of Brooklyn College’s Multimedia Computing minor here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMinor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/MMCMinor.html</a>'
+
+  utter_index_about_minor_cogni_p8:
+  - text: 'You can find a concise breakdown of Brooklyn College’s Cognitive Science minor here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/CogSciMinor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/CogSciMinor.html</a>'
+
+  utter_index_about_major_compmath_p9:
+  - text: 'Interested in both Mathematics and Computer Science? Take a look at our Computational Mathematics program! 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/CompMathMajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/CompMathMajor.html</a>'
+
+  utter_index_courses_p11:
+  - text: 'you can find list of courses here: 
+  <a href="http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.">http://www.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.</a>'
+
+  utter_index_honors_p12:
+  - text: 'You can find more information about graduating with honors here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/honors.html">https://brooklyncisdept.github.io/brochures/UndergradContent/honors.html</a>'
+
+  utter_index_student_societies_p13:
+  - text: 'You can find more on student societies here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/societies.html">https://brooklyncisdept.github.io/brochures/UndergradContent/societies.html</a>'
+
+  utter_index_comp_and_lib_facilities:
+  - text: 'You can find more on facilities here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/facilities.html">https://brooklyncisdept.github.io/brochures/UndergradContent/facilities.html</a>'
+
+  utter_index_web_resource:
+  - text: 'You can find more on internet resources here 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/resources.html">https://brooklyncisdept.github.io/brochures/UndergradContent/resources.html</a>'
+
+  utter_index_faculties_p16_17:
+  - text: 'Here is a list of the full time professors in our department with their extensions, email and office locations 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/FTfaculty.html">https://brooklyncisdept.github.io/brochures/UndergradContent/FTfaculty.html</a>
+  <br>
+  If the professor you are looking for is not here, please refer to the Brooklyn College directory 
+  <a href="http://websql.brooklyn.cuny.edu/directory/">http://websql.brooklyn.cuny.edu/directory/</a>'
+
+  utter_where_brochure:
+  - text: 'You can find our brochure here
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/">https://brooklyncisdept.github.io/brochures/UndergradContent/</a>'
+
+  utter_all_contact:
+  - text: 'Here is our contact information and the link to our website
+  <br><br>
+  Computer and Information Science<br>
+  Brooklyn College of the City University of New York<br>
+  2109 Ingersoll Hall<br>
+  Brooklyn, NY 11210<br>
+  Phone: 718.951.5657<br>
+  Fax: 718.951.4842<br>
+  <a href="http://www.brooklyn.cuny.edu/pub/departments/cis/">http://www.brooklyn.cuny.edu/pub/departments/cis/</a><br>
+  Email: <a href="mailto:cis@sci.brooklyn.cuny.edu">cis@sci.brooklyn.cuny.edu</a>'
+
+  utter_chairperson:
+  - text: '<table>
+  <tbody>
+    <tr>
+      <td>Chairperson</td>
+      <td>Prof. Y. Langsam</td>
+      <td>2109N</td>
+      <td>951-5657</td>
+    </tr>
+    <tr>
+      <td>Graduate Deputy Chair</td>
+      <td>Prof. J. Cox</td>
+      <td>2112cN</td>
+      <td>951-5000 x2047</td>
+    </tr>
+    <tr>
+      <td>Undergraduate Deputy Chair (CLAS)</td>
+      <td>Prof. M. Augenstein</td>
+      <td>2122N</td>
+      <td>951-5000 x2041</td>
+    </tr>
+    <tr>
+      <td>Undergraduate Deputy Chair (SGS)</td>
+      <td>Prof. J. Thurm</td>
+      <td>2109N</td>
+      <td>951-5657</td>
+    </tr>
+  </tbody>
+</table>'
+
+  utter_how_do_i_start:
+  - text: 'Please take a look at this FAQ list for useful advice on getting started 
+  <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/FAQ.html">https://brooklyncisdept.github.io/brochures/UndergradContent/FAQ.html</a>'
 
   utter_calendar:
-  - text: 'calendar can be found here: <a href="http://www.brooklyn.cuny.edu/web/about/administration/enrollment/registrar/bulletins.php">http://www.brooklyn.cuny.edu/web/about/administration/enrollment/registrar/bulletins.php</a>'
-
-  utter_programs:
-  - text: 'Here is a comprehensive list of our Computer Science programs complete with Department recommendations <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html">https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html</a>'
-
-  utter_grad_prepare:
-  - text: 'This page has a list of Computer Science courses that will help you to prepare for Graduate School <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html">https://brooklyncisdept.github.io/brochures/UndergradContent/UGprograms.html</a>'
-
-  utter_prerequisites:
-  - text: 'Here is a flowchart of the courses needed for a BSc in Computer Science, complete with prerequisites <a href="https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html">https://brooklyncisdept.github.io/brochures/UndergradContent/CSmajor.html</a>'
-
-  utter_get_office:
-  - text: '2109 Ingersoll Hall'
-
-  utter_get_phone:
-  - text: '718.951.5657'
-
-  utter_get_facebook:
-  - text: 'Here is a link to our facebook page <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/facebook.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/facebook.php</a>'
-
-  utter_get_website:
-  - text: 'Here is a link to the department page <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers.php</a>'
-
+  - text: 'calendar can be found here: 
+  <a href="http://www.brooklyn.cuny.edu/web/about/administration/enrollment/registrar/bulletins.php">http://www.brooklyn.cuny.edu/web/about/administration/enrollment/registrar/bulletins.php</a>'
+  utter_info_news:
+  - text: 'news can be found here: 
+  <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/news.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/news.php</a>'
   utter_get_mailing_list:
-  - text: 'You can join our mailing list using this link: <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/email.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/email.php</a>'
-
+  - text: 'You can join our mailing list using this link: 
+  <a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/email.php">http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers/email.php</a>'
   utter_oddly_specific:
   - text: "Sorry I cannot answer that, I'd recommend going to campus and ask us in person"
 
   utter_usage:
-  - text: "currently I can answer questions about the following:\
-    <pre><small>\
-- list of courses\n\
-- why would one major compsci\n\
-- where to seek advices\n\
-- latest news\n\
-- link to academic calendar\n\
-- what programs do we have\n\
-- grad school preparation\n\
-- link to prerequisites graph\n\
-- location of our department\n\
-- department phone number\n\
-- url of facebook page\n\
-- url of department page\n\
-- joining the mailing list\n\
-- usage of this bot\
-    </small></pre>"
-
+  - text: 'Ask me anything about <b>Brooklyn College Department of Computer and Information Science!</b><br>
+  currently I can provide the following answers:<br>
+    <small>
+- <a onclick="submitMessageEx(''hi'')">utter_greet</a><br>
+- <a onclick="submitMessageEx(''bye'')">utter_bye</a><br>
+- <a onclick="submitMessageEx(''what are the course prerequisites?'')">utter_prerequisites</a><br>
+- <a onclick="submitMessageEx(''where can i find answers to commonly asked questions?'')">utter_faq</a><br>
+- <a onclick="submitMessageEx(''why should i consider computer science?'')">utter_index_why_compsci_p1</a><br>
+- <a onclick="submitMessageEx(''what should i know if Im a transfer student?'')">utter_index_transfer_advice_p1</a><br>
+- <a onclick="submitMessageEx(''what programs are there?'')">utter_index_programs_p2</a><br>
+- <a onclick="submitMessageEx(''I want to know more about the computer science major'')">utter_index_about_major_cs_p3</a><br>
+- <a onclick="submitMessageEx(''I want to know more about the multimedia major'')">utter_index_about_major_mmc_p4</a><br>
+- <a onclick="submitMessageEx(''I want to know more about the information system major'')">utter_index_about_major_cis_p5</a><br>
+- <a onclick="submitMessageEx(''I want to know more about the computer science minor'')">utter_index_about_minor_cs_p6</a><br>
+- <a onclick="submitMessageEx(''I want to know more about the multimedia minor'')">utter_index_about_minor_mmc_p7</a><br>
+- <a onclick="submitMessageEx(''I want to know more about the cognitive science minor'')">utter_index_about_minor_cogni_p8</a><br>
+- <a onclick="submitMessageEx(''I want to know more about the computational mathematics major'')">utter_index_about_major_compmath_p9</a><br>
+- <a onclick="submitMessageEx(''what courses are available?'')">utter_index_courses_p11</a><br>
+- <a onclick="submitMessageEx(''How do I graduate with Honors'')">utter_index_honors_p12</a><br>
+- <a onclick="submitMessageEx(''I want to know more about Student Societies'')">utter_index_student_societies_p13</a><br>
+- <a onclick="submitMessageEx(''I want to know more about Computer and Library Facilities'')">utter_index_comp_and_lib_facilities</a><br>
+- <a onclick="submitMessageEx(''What Internet Resources are there?'')">utter_index_web_resource</a><br>
+- <a onclick="submitMessageEx(''Show me the faculty profiles'')">utter_index_faculties_p16_17</a><br>
+- <a onclick="submitMessageEx(''Get me the link to the department brochure'')">utter_where_brochure</a><br>
+- <a onclick="submitMessageEx(''Can you show me the contact info?'')">utter_all_contact</a><br>
+- <a onclick="submitMessageEx(''Who is the chairperson?'')">utter_chairperson</a><br>
+- <a onclick="submitMessageEx(''How do I start?'')">utter_how_do_i_start</a><br>
+- <a onclick="submitMessageEx(''Where can I find the calendar?'')">utter_calendar</a><br>
+- <a onclick="submitMessageEx(''Where can I find the latest news?'')">utter_info_news</a><br>
+- <a onclick="submitMessageEx(''How do I join the mailinglist?'')">utter_get_mailing_list</a><br>
+- <a onclick="submitMessageEx(''How do I use this thing?'')">utter_usage</a>
+    </small>'
